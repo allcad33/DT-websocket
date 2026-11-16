@@ -1,0 +1,121 @@
+Sensor 1:
+
+  limestone               => "&sensor_1_limestone"                =>  $[{"key":"limestone","value":"&sensor_1_limestone"}]
+  clay                    => "&sensor_1_clay"                     =>  $[{"key":"clay","value":"&sensor_1_clay"}]
+  iron_ore                => "&sensor_1_iron_ore"                 =>  $[{"key":"iron_ore","value":"&sensor_1_iron_ore"}]
+  sand                    => "&sensor_1_sand"                     =>  $[{"key":"sand","value":"&sensor_1_sand"}]
+  raw_material            => "&sensor_1_raw_material"             =>  $[{"key":"raw_material","value":"&sensor_1_raw_material"}]
+
+Sensor 2:
+
+  kiln temperature        => "&sensor_2_kiln_temperature"         =>  $[{"key":"kiln temperature","value":"&sensor_2_kiln_temperature"}]
+  kiln humidity           => "&sensor_2_kiln_humidity"            =>  $[{"key":"kiln humidity","value":"&sensor_2_kiln_humidity"}]
+  kiln blower             => "&sensor_2_kiln_blower"              =>  $[{"key":"kiln blower","value":"&sensor_2_kiln_blower"}]
+  kiln heater             => "&sensor_2_kiln_heater"              =>  $[{"key":"kiln heater","value":"&sensor_2_kiln_heater"}]
+  pulley_temperature      => "&sensor_2_pulley_temperature"       =>  $[{"key":"pulley_temperature","value":"&sensor_2_pulley_temperature"}]
+  vibration_level         => "&sensor_2_vibration_level"          =>  $[{"key":"vibration_level","value":"&sensor_2_vibration_level"}]
+  motor                   => "&sensor_2_motor"                    =>  $[{"key":"motor","value":"&sensor_2_motor"}]
+  pulley1                 => "&sensor_2_pulley1"                  =>  $[{"key":"pulley1","value":"&sensor_2_pulley1"}]
+  pulley2                 => "&sensor_2_pulley2"                  =>  $[{"key":"pulley2","value":"&sensor_2_pulley2"}]
+  pulley3                 => "&sensor_2_pulley3"                  =>  $[{"key":"pulley3","value":"&sensor_2_pulley3"}]
+  rotor                   => "&sensor_2_rotor"                    =>  $[{"key":"rotor","value":"&sensor_2_rotor"}]
+  pulley_heater           => "&sensor_2_pulley_heater"            =>  $[{"key":"pulley_heater","value":"&sensor_2_pulley_heater"}]
+  pulley_blower           => "&sensor_2_pulley_blower"            =>  $[{"key":"pulley_blower","value":"&sensor_2_pulley_blower"}]
+  pulley_vibration_motor  => "&sensor_2_pulley_vibration_motor"   =>  $[{"key":"pulley_vibration_motor","value":"&sensor_2_pulley_vibration_motor"}]
+
+WTP 
+
+  timestamp               => "&WTP_Modal_timestamp"               =>  $[{"key":"timestamp","value":"&WTP_Modal_timestamp"}]
+  ph1                     => "&WTP_Modal_ph1"                     =>  $[{"key":"ph1","value":"&WTP_Modal_ph1"}]
+  ph1_temp                => "&WTP_Modal_ph1_temp"                =>  $[{"key":"ph1_temp","value":"&WTP_Modal_ph1_temp"}]
+  ph2                     => "&WTP_Modal_ph2"                     =>  $[{"key":"ph2","value":"&WTP_Modal_ph2"}]
+  ph2_temp                => "&WTP_Modal_ph2_temp"                =>  $[{"key":"ph2_temp","value":"&WTP_Modal_ph2_temp"}]
+  vib_temp                => "&WTP_Modal_vib_temp"                =>  $[{"key":"vib_temp","value":"&WTP_Modal_vib_temp"}]
+  velocity                => "&WTP_Modal_velocity"                =>  $[{"key":"velocity","value":"&WTP_Modal_velocity"}]
+  displacement            => "&WTP_Modal_displacement"            =>  $[{"key":"displacement","value":"&WTP_Modal_displacement"}]
+  acceleration            => "&WTP_Modal_acceleration"            =>  $[{"key":"acceleration","value":"&WTP_Modal_acceleration"}]
+  frequency               => "&WTP_Modal_frequency"               =>  $[{"key":"frequency","value":"&WTP_Modal_frequency"}]
+  tank1                   => "&WTP_Modal_tank1"                   =>  $[{"key":"tank1","value":"&WTP_Modal_tank1"}]
+  tank2                   => "&WTP_Modal_tank2"                   =>  $[{"key":"tank2","value":"&WTP_Modal_tank2"}]
+  tank3                   => "&WTP_Modal_tank3"                   =>  $[{"key":"tank3","value":"&WTP_Modal_tank3"}]
+  tank4                   => "&WTP_Modal_tank4"                   =>  $[{"key":"tank4","value":"&WTP_Modal_tank4"}]
+
+agitator_1
+
+  motor                   => "&agitator_1_motor"                  =>  $[{"key":"motor","value":"&agitator_1_motor"}]
+  flow_rate_lpm           => "&agitator_1_flow_rate_lpm"          =>  $[{"key":"flow_rate_lpm","value":"&agitator_1_flow_rate_lpm"}]
+  total_liters            => "&agitator_1_total_liters"           =>  $[{"key":"total_liters","value":"&agitator_1_total_liters"}]
+
+Wtp
+  device                  => "&wtp_controller_device"             =>  $[{"key":"device","value":"&wtp_controller_device"}]
+  motor1                  => "&wtp_controller_motor1"             =>  $[{"key":"motor1","value":"&wtp_controller_motor1"}]
+  motor2                  => "&wtp_controller_motor2"             =>  $[{"key":"motor2","value":"&wtp_controller_motor2"}]
+  valve                   => "&wtp_controller_valve"              =>  $[{"key":"valv","value":"&wtp_controller_valve"}]
+
+
+API for Sensor 1:
+
+Freeze display       =>   "http://allcad-chennai.selfip.com:3030//api/mqtt/publish?topic=1&message=raw_material_control&status=1"
+Unfreeze display     =>   "http://allcad-chennai.selfip.com:3030//api/mqtt/publish?topic=1&message=raw_material_control&status=0"
+
+
+API for Sensor 2:
+
+Kiln Blower ON       =>   "http://allcad-chennai.selfip.com:3030//api/mqtt/publish?topic=2&message=blower&status=true"  
+Kiln Blower OFF      =>   "http://allcad-chennai.selfip.com:3030//api/mqtt/publish?topic=2&message=blower&status=false"   
+
+
+Kiln Heater ON       =>   "http://allcad-chennai.selfip.com:3030//api/mqtt/publish?topic=2&message=heater&status=true"  
+Kiln Heater OFF      =>   "http://allcad-chennai.selfip.com:3030//api/mqtt/publish?topic=2&message=heater&status=false"   
+
+
+Pulley 1 ON          =>   "http://allcad-chennai.selfip.com:3030//api/mqtt/publish?topic=2&message=pulley1&status=true"  
+Pulley 1 OFF         =>   "http://allcad-chennai.selfip.com:3030//api/mqtt/publish?topic=2&message=pulley1&status=false"     
+
+
+Pulley 2 ON          =>   "http://allcad-chennai.selfip.com:3030//api/mqtt/publish?topic=2&message=pulley2&status=true"  
+Pulley 2 OFF         =>   "http://allcad-chennai.selfip.com:3030//api/mqtt/publish?topic=2&message=pulley2&status=false"     
+
+
+Pulley 3 ON          =>   "http://allcad-chennai.selfip.com:3030//api/mqtt/publish?topic=2&message=pulley3&status=true"  
+Pulley 3 OFF         =>   "http://allcad-chennai.selfip.com:3030//api/mqtt/publish?topic=2&message=pulley3&status=false"   
+
+
+Rotor ON             =>   "http://allcad-chennai.selfip.com:3030//api/mqtt/publish?topic=2&message=rotor&status=true"  
+Rotor OFF            =>   "http://allcad-chennai.selfip.com:3030//api/mqtt/publish?topic=2&message=rotor&status=false"   
+
+
+Pulley Heater ON     =>   "http://allcad-chennai.selfip.com:3030//api/mqtt/publish?topic=2&message=pulley_heater&status=true"  
+Pulley Heater OFF    =>   "http://allcad-chennai.selfip.com:3030//api/mqtt/publish?topic=2&message=pulley_heater&status=false"   
+
+
+Pulley Blower ON     =>   "http://allcad-chennai.selfip.com:3030//api/mqtt/publish?topic=2&message=pulley_blower&status=true"  
+Pulley Blower OFF    =>   "http://allcad-chennai.selfip.com:3030//api/mqtt/publish?topic=2&message=pulley_blower&status=false"   
+
+
+Vibration Motor ON   =>   "http://allcad-chennai.selfip.com:3030//api/mqtt/publish?topic=2&message=pulley_vibration_motor&status=true"  
+Vibration Motor OFF  =>   "http://allcad-chennai.selfip.com:3030//api/mqtt/publish?topic=2&message=pulley_vibration_motor&status=false"   
+
+
+Emergency – ALL OFF   =>  "http://192.168.0.171:3030/api/mqtt/publish?topic=2&message=all_off&status=false"  
+Raw material target   =>  http://allcad-chennai.selfip.com:3030/api/mqtt/publish?topic=1&message=raw_material_target&inputs=100,80,20,10
+
+WTP 
+
+agitator_1 Motor ON   =>    "http://localhost:3030/api/mqtt/publish?topic=dts/wtp/agitator_1/action&message=motor&status=true"
+agitator_1 Motor OFF  =>    "http://localhost:3030/api/mqtt/publish?topic=dts/wtp/agitator_1/action&message=motor&status=false"
+
+wtp_controller Motor1 ON   =>    "http://localhost:3030/api/mqtt/publish?topic=dts/wtp/wtp_controller/action&message=motor1&status=true"
+wtp_controller Motor1 OFF  =>    "http://localhost:3030/api/mqtt/publish?topic=dts/wtp/wtp_controller/action&message=motor1&status=false"
+
+wtp_controller Motor2 ON   =>    "http://localhost:3030/api/mqtt/publish?topic=dts/wtp/wtp_controller/action&message=motor2&status=true"
+wtp_controller Motor2 OFF  =>    "http://localhost:3030/api/mqtt/publish?topic=dts/wtp/wtp_controller/action&message=motor2&status=false"
+
+wtp_controller valve ON   =>    "http://localhost:3030/api/mqtt/publish?topic=dts/wtp/wtp_controller/action&message=valve&status=open"
+wtp_controller valve OFF  =>    "http://localhost:3030/api/mqtt/publish?topic=dts/wtp/wtp_controller/action&message=valve&status=close"
+ 
+
+
+*** Replace 192.168.0.171:3030 with the IP or domain of the server ***
+*** This all apis are get request ***
+

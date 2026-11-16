@@ -1,0 +1,43 @@
+{
+  "&H_T_iot_sensor_1_temprature":  shellyDeviceData?.["3030f9e817d0"]?.["temperature:0"]?.tC + " °C",
+  "&H_T_iot_sensor_1_humidity": shellyDeviceData?.["3030f9e817d0"]?.["humidity:0"]?.rh + "%",
+  "&H_T_iot_sensor_1_battery": shellyDeviceData?.["3030f9e817d0"]?.["devicepower:0"]?.battery.percent + "%",
+  "&H_T_iot_sensor_2_temprature":  shellyDeviceData?.["8cbfeaa4b258"]?.["temperature:0"]?.tC + " °C",
+  "&H_T_iot_sensor_2_humidity": shellyDeviceData?.["8cbfeaa4b258"]?.["humidity:0"]?.rh + "%",
+  "&H_T_iot_sensor_2_battery": shellyDeviceData?.["8cbfeaa4b258"]?.["devicepower:0"]?.battery.percent + "%",
+  "&H_T_iot_sensor_3_temprature":  shellyDeviceData?.["e4b323318880"]?.["temperature:0"]?.tC + " °C",
+  "&H_T_iot_sensor_3_humidity": shellyDeviceData?.["e4b323318880"]?.["humidity:0"]?.rh + "%",
+  "&H_T_iot_sensor_3_battery": shellyDeviceData?.["e4b323318880"]?.["devicepower:0"]?.battery.percent + "%",
+  "&WTP_Modal_timestamp" : mqttTopic3?.timestamp,
+  "&WTP_Modal_ph1" : mqttTopic3?.ph1,
+  "&WTP_Modal_ph1_temp" : mqttTopic3?.ph1_temp,
+  "&WTP_Modal_ph2" : mqttTopic3?.ph2,
+  "&WTP_Modal_ph2_temp" : mqttTopic3?.ph2_temp,
+  "&WTP_Modal_vib_temp" : mqttTopic3?.vib_temp,
+  "&WTP_Modal_velocity" : mqttTopic3?.velocity,
+  "&WTP_Modal_displacement" : mqttTopic3?.displacement,
+  "&WTP_Modal_acceleration" : mqttTopic3?.acceleration,
+  "&WTP_Modal_frequency" : mqttTopic3?.frequency,
+  "&WTP_Modal_tank1" : mqttTopic3?.tank1,
+  "&WTP_Modal_tank2" : mqttTopic3?.tank2,
+  "&WTP_Modal_tank3" : mqttTopic3?.tank3,
+  "&WTP_Modal_tank4" : mqttTopic3?.tank4,
+  "&WTP_Modal_pressure_mpa" : mqttTopic3?.pressure_mpa,
+  "&WTP_Modal_pressure_bar" : mqttTopic3?.pressure_bar,
+  "&WTP_Modal_turbidity" : mqttTopic3?.turbidity,
+  "&WTP_Modal_reference" : mqttTopic3?.reference,
+  "&WTP_Modal_scatter" : mqttTopic3?.scatter,
+  "&WTP_Modal_turbidity_tank1" : mqttTopic3?.turbidity_tank1,
+  "&WTP_Modal_turbidity_tank2" : mqttTopic3?.turbidity_tank2,
+  "&agitator_1_motor": mqttTopic4?.motor,
+  "&agitator_1_flow_rate_lpm": mqttTopic4?.flow_rate_lpm,
+  "&agitator_1_total_liters": mqttTopic4?.total_liters,
+  "&wtp_controller_device": mqttTopic5?.device,
+  "&wtp_controller_motor1": mqttTopic5?.motor1,
+  "&wtp_controller_motor2": mqttTopic5?.motor2,
+  "&wtp_controller_valve": mqttTopic5?.valve
+}
+
+
+
+

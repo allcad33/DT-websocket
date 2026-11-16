@@ -1,0 +1,203 @@
+{
+  "version": "1.2",
+  "url": "rtsp://admin:123456@192.168.0.13:554/streaming",
+  "resolution": "1920x960",
+  "roiList": [
+    {
+      "id": 0,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 1.1068086247906836, "y": 0.42262447535435504 },
+          { "x": 1.1077661799043528, "y": 0.4231475981535826 },
+          { "x": 1.107286558395132, "y": 0.42301594593528447 },
+          { "x": 1.1075261581463063, "y": 0.42452313042493084 }
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "displayTime": 5000,
+      "parentId": 0,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 47,
+        "y": -38,
+        "width": 320,
+        "height": 70,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "$[{\"key\":\"H&T Sensor 1 Temperature\",\"value\":\"&H_T_iot_sensor_1_temprature\"},{\"key\":\"H&T Sensor 1 humidity\",\"value\":\"&H_T_iot_sensor_1_humidity\"},{\"key\":\"H&T Sensor 1 battery\",\"value\":\"&H_T_iot_sensor_1_battery\"}]",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 2,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 1.107286558395132, "y": 0.5257474278507763 },
+          { "x": 1.1080066236904937, "y": 0.5271964616498745 },
+          { "x": 1.1077661799043532, "y": 0.5280003164326136 },
+          { "x": 1.1080066236904942, "y": 0.5285767716845492 }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "displayTime": 5000,
+      "parentId": 2,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 47,
+        "y": -38,
+        "width": 320,
+        "height": 70,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "$[{\"key\":\"H&T Sensor 2 Temperature\",\"value\":\"&H_T_iot_sensor_2_temprature\"},{\"key\":\"H&T Sensor 2 humidity\",\"value\":\"&H_T_iot_sensor_2_humidity\"},{\"key\":\"H&T Sensor 2 battery\",\"value\":\"&H_T_iot_sensor_2_battery\"}]",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 4,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 1.1097015471465375, "y": 0.613348223010432 },
+          { "x": 1.1099453669942854, "y": 0.6141757156896087 },
+          { "x": 1.109945366994286, "y": 0.6124529495418055 },
+          { "x": 1.1094581492173787, "y": 0.6147298591724286 }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "displayTime": 5000,
+      "parentId": 4,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 47,
+        "y": -38,
+        "width": 320,
+        "height": 70,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "$[{\"key\":\"H&T Sensor 3 Temperature\",\"value\":\"&H_T_iot_sensor_3_temprature\"},{\"key\":\"H&T Sensor 3 humidity\",\"value\":\"&H_T_iot_sensor_3_humidity\"},{\"key\":\"H&T Sensor 3 battery\",\"value\":\"&H_T_iot_sensor_3_battery\"}]",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    }
+  ],
+  "timestamp": "2026-02-04T09:38:44.941Z"
+}

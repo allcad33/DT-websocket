@@ -1,0 +1,25 @@
+{
+  "name": "websocket-sender",
+  "version": "1.0.0",
+  "description": "WebSocket JSON Sender",
+  "main": "server.js",
+  "scripts": {
+    "start": "node combined-server.js",
+    "dev": "nodemon --config nodemon.json combined-server.js",
+    "build": "node uglify-build.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "javascript-obfuscator": "^4.1.1",
+    "mqtt": "^5.10.4",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

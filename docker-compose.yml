@@ -1,0 +1,19 @@
+services:
+  frontend:
+    image: admin-middleware-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile.front
+    ports:
+      - "3020:3020"
+    restart: always
+
+  backend:
+    image: admin-middleware-backend
+    build:
+      context: .
+      dockerfile: Dockerfile.back
+    ports:
+      - "3030:3030"
+    restart: always
+

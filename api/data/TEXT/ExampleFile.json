@@ -1,0 +1,2693 @@
+{
+  "version": "1.2",
+  "url": "rtsp://admin:123456@192.168.0.13:554/streaming",
+  "resolution": "3840x904",
+  "roiList": [
+    {
+      "id": 0,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.3338107151911138, "y": 0.10165116928757195 },
+          { "x": 0.33327003521988474, "y": 0.1170979069379513 },
+          { "x": 0.33846599472707495, "y": 0.10677775472809102 },
+          { "x": 0.3340371423241083, "y": 0.10135191751181169 }
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "displayTime": 5000,
+      "parentId": 0,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 42,
+        "y": -24,
+        "width": 192,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "$[{\"key\":\"limestone\",\"value\":\"&sensor_1_limestone\"}]",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 2,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.33976511246168006, "y": 0.17175366021267507 },
+          { "x": 0.3392791845901435, "y": 0.15103355013640873 },
+          { "x": 0.3368798351509542, "y": 0.16866162162239848 },
+          { "x": 0.3397861780738892, "y": 0.17020641892309843 }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "displayTime": 5000,
+      "parentId": 2,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 42,
+        "y": -24,
+        "width": 192,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "$[{\"key\":\"clay\",\"value\":\"&sensor_1_clay\"}]",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 4,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.3390969711308956, "y": 0.23188758367081302 },
+          { "x": 0.33837603120829096, "y": 0.21367389758257493 },
+          { "x": 0.33715821154108505, "y": 0.22884403485477617 },
+          { "x": 0.33990804446386896, "y": 0.2325880633601379 }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "displayTime": 5000,
+      "parentId": 4,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 42,
+        "y": -24,
+        "width": 192,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "$[{\"key\":\"iron_ore\",\"value\":\"&sensor_1_iron_ore\"}]",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 6,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.3360767952232119, "y": 0.2867910145403714 },
+          { "x": 0.3402865959145041, "y": 0.27883016718963677 },
+          { "x": 0.33904151742625976, "y": 0.2985571648181622 },
+          { "x": 0.33686045511834783, "y": 0.28857792572217134 }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "displayTime": 5000,
+      "parentId": 6,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 42,
+        "y": -24,
+        "width": 192,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "$[{\"key\":\"sand\",\"value\":\"&sensor_1_sand\"}]",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 8,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.33695423428236926, "y": 0.36857323901274963 },
+          { "x": 0.3364886499950378, "y": 0.3545048056198686 },
+          { "x": 0.3398155306649298, "y": 0.35286698640652187 },
+          { "x": 0.33717215139962203, "y": 0.3673922102254545 }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "displayTime": 5000,
+      "parentId": 8,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 42,
+        "y": -24,
+        "width": 192,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "$[{\"key\":\"raw_material\",\"value\":\"&sensor_1_raw_material\"}]",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 10,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.33772047038571545, "y": 0.4595086472589345 },
+          { "x": 0.3360698289214584, "y": 0.4337918305928549 },
+          { "x": 0.3399189621997074, "y": 0.44146885939639974 },
+          { "x": 0.3379326088606016, "y": 0.4593817120608955 }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "displayTime": 5000,
+      "parentId": 10,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderSize": 0,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 213,
+        "y": -21,
+        "width": 39,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "APIButton",
+        "url": "https://img.icons8.com/ios-filled/96/00c853/shutdown.png",
+        "request": {
+          "url": "http://192.168.0.171:3030/api/mqtt/publish?topic=1&message=raw_material_control&status=1",
+          "method": "GET",
+          "headers": {},
+          "body": ""
+        }
+      }
+    },
+    {
+      "id": 12,
+      "displayTime": 5000,
+      "parentId": 10,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 51,
+        "y": -18,
+        "width": 86.03515625,
+        "height": 32,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "Freeze display Buttons",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 13,
+      "displayTime": 5000,
+      "parentId": 10,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderSize": 0,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 289,
+        "y": -21,
+        "width": 39,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "APIButton",
+        "url": "https://img.icons8.com/color/96/shutdown.png",
+        "request": {
+          "url": "http://192.168.0.171:3030/api/mqtt/publish?topic=1&message=raw_material_control&status=0",
+          "method": "GET",
+          "headers": {},
+          "body": ""
+        }
+      }
+    },
+    {
+      "id": 14,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.46994652984762725, "y": 0.27930545865767453 },
+          { "x": 0.4707000655322414, "y": 0.2799668549055017 },
+          { "x": 0.46995503265909555, "y": 0.28119049167035837 },
+          { "x": 0.47020142247293556, "y": 0.28031034631215773 }
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "displayTime": 5000,
+      "parentId": 14,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 42,
+        "y": -24,
+        "width": 360.259765625,
+        "height": 38,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "$[{\"key\":\"kiln temperature\",\"value\":\"&sensor_2_kiln_temperature\"}]",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 16,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.4710058934841535, "y": 0.3611622911410536 },
+          { "x": 0.4715298717249369, "y": 0.36172227587144734 },
+          { "x": 0.47126742868869853, "y": 0.3611808236172075 },
+          { "x": 0.47126742868869853, "y": 0.3611808236172075 }
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "displayTime": 5000,
+      "parentId": 16,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 42,
+        "y": -24,
+        "width": 360.259765625,
+        "height": 38,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "$[{\"key\":\"kiln humidity\",\"value\":\"&sensor_2_kiln_humidity\"}]",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 18,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.47061626476633545, "y": 0.4397667290764131 },
+          { "x": 0.471934591998067, "y": 0.4381528830414883 },
+          { "x": 0.471409319874944, "y": 0.43979143852551317 },
+          { "x": 0.47167352380840405, "y": 0.4398000006966064 }
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "displayTime": 5000,
+      "parentId": 18,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 42,
+        "y": -24,
+        "width": 360.259765625,
+        "height": 38,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "$[{\"key\":\"kiln blower\",\"value\":\"&sensor_2_kiln_blower\"}]",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 20,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.472875265862452, "y": 0.5149525341001401 },
+          { "x": 0.4726077395091831, "y": 0.5143878284059356 },
+          { "x": 0.472875265862452, "y": 0.5149525341001399 },
+          { "x": 0.472875265862452, "y": 0.5149525341001399 }
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "displayTime": 5000,
+      "parentId": 20,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 42,
+        "y": -24,
+        "width": 360.259765625,
+        "height": 38,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "$[{\"key\":\"kiln heater\",\"value\":\"&sensor_2_kiln_heater\"}]",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 22,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.4725007925137504, "y": 0.5991421026666609 },
+          { "x": 0.47276910581875115, "y": 0.5985592430858102 },
+          { "x": 0.47250295818259214, "y": 0.6002770394781771 },
+          { "x": 0.47250295818259214, "y": 0.6002770394781771 }
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "displayTime": 5000,
+      "parentId": 22,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 42,
+        "y": -24,
+        "width": 360.259765625,
+        "height": 38,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "$[{\"key\":\"pulley_temperature\",\"value\":\"&sensor_2_pulley_temperature\"}]",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 24,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.47320055643521625, "y": 0.6787342013589454 },
+          { "x": 0.473197119415797, "y": 0.6770786066269772 },
+          { "x": 0.47265616000466165, "y": 0.6787895691222257 },
+          { "x": 0.4731982649182438, "y": 0.6776306319339319 }
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "displayTime": 5000,
+      "parentId": 24,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 42,
+        "y": -24,
+        "width": 360.259765625,
+        "height": 38,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "$[{\"key\":\"vibration_level\",\"value\":\"&sensor_2_vibration_level\"}]",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 26,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.4725418523579454, "y": 0.7563020096352312 },
+          { "x": 0.47308653157237723, "y": 0.753612080601017 },
+          { "x": 0.4725374165590098, "y": 0.7542105851436736 },
+          { "x": 0.4725374165590098, "y": 0.7542105851436736 }
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "displayTime": 5000,
+      "parentId": 26,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 42,
+        "y": -24,
+        "width": 360.259765625,
+        "height": 38,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "$[{\"key\":\"motor\",\"value\":\"&sensor_2_motor\"}]",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 28,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.47352586223500537, "y": 0.823819355907219 },
+          { "x": 0.4735246674147139, "y": 0.8233329887520021 },
+          { "x": 0.4732503543768887, "y": 0.8248385565055041 },
+          { "x": 0.4729677501456006, "y": 0.8229397328730517 }
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "displayTime": 5000,
+      "parentId": 28,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 42,
+        "y": -24,
+        "width": 360.259765625,
+        "height": 38,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "$[{\"key\":\"pulley1\",\"value\":\"&sensor_2_pulley1\"}]",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 30,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.47313086114359637, "y": 0.8881847761113865 },
+          { "x": 0.47424997379308453, "y": 0.886632876000161 },
+          { "x": 0.47256656228922816, "y": 0.8873974577396976 },
+          { "x": 0.47312615209171427, "y": 0.886403602071594 }
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "displayTime": 5000,
+      "parentId": 30,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 42,
+        "y": -24,
+        "width": 360.259765625,
+        "height": 38,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "$[{\"key\":\"pulley2\",\"value\":\"&sensor_2_pulley2\"}]",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 32,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.4688548897464731, "y": 0.2022563354672279 },
+          { "x": 0.4714337799550078, "y": 0.20246833406317935 },
+          { "x": 0.4694800488681073, "y": 0.20685120695175988 },
+          { "x": 0.47010436563059205, "y": 0.20481391798920354 }
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "displayTime": 5000,
+      "parentId": 32,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 42,
+        "y": -24,
+        "width": 360.259765625,
+        "height": 38,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "$[{\"key\":\"pulley3\",\"value\":\"&sensor_2_pulley3\"}]",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 34,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.4679156102334368, "y": 0.13098865791160447 },
+          { "x": 0.4710392231713831, "y": 0.13396952090930195 },
+          { "x": 0.4694800488681073, "y": 0.14040964037602027 },
+          { "x": 0.4688548897464731, "y": 0.13821540629712933 }
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "displayTime": 5000,
+      "parentId": 34,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 44,
+        "y": -20,
+        "width": 360.259765625,
+        "height": 38,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "$[{\"key\":\"rotor\",\"value\":\"&sensor_2_rotor\"}]",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 36,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.4703425086223171, "y": 0.07439490856301169 },
+          { "x": 0.4713072113515603, "y": 0.07709383035474067 },
+          { "x": 0.47195028524620347, "y": 0.07710954964033039 },
+          { "x": 0.47098565340224247, "y": 0.07708793516318536 }
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "displayTime": 5000,
+      "parentId": 36,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 42,
+        "y": -18,
+        "width": 360.259765625,
+        "height": 38,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "$[{\"key\":\"pulley_heater\",\"value\":\"&sensor_2_pulley_heater\"}]",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 38,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.47183130125787087, "y": 0.9493863976666359 },
+          { "x": 0.47338265126824247, "y": 0.9386800821148922 },
+          { "x": 0.4721420311351142, "y": 0.9425595825848284 },
+          { "x": 0.47400155241072234, "y": 0.9392794716378967 }
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "displayTime": 5000,
+      "parentId": 38,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 42,
+        "y": -24,
+        "width": 360.259765625,
+        "height": 38,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "$[{\"key\":\"pulley_blower\",\"value\":\"&sensor_2_pulley_blower\"}]",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 40,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.47098565340224247, "y": 0.02785612057899839 },
+          { "x": 0.47130721135155995, "y": 0.02347938929537375 },
+          { "x": 0.4713072113515603, "y": 0.0262629154122081 },
+          { "x": 0.47098565340224247, "y": 0.023869719671981267 }
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "displayTime": 5000,
+      "parentId": 40,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 42,
+        "y": -18,
+        "width": 360.259765625,
+        "height": 38,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "$[{\"key\":\"pulley_vibration_motor\",\"value\":\"&sensor_2_pulley_vibration_motor\"}]",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 42,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.33548233289015494, "y": 0.5018553750409791 },
+          { "x": 0.3399451840020703, "y": 0.5016809192913514 },
+          { "x": 0.3391314062708007, "y": 0.5211993955514213 },
+          { "x": 0.3356526193698296, "y": 0.5207483129991728 }
+        ]
+      }
+    },
+    {
+      "id": 43,
+      "displayTime": 5000,
+      "parentId": 42,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderSize": 0,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 289,
+        "y": -21,
+        "width": 39,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "APIButton",
+        "url": "https://img.icons8.com/color/96/shutdown.png",
+        "request": {
+          "url": "http://192.168.0.171:3030/api/mqtt/publish?topic=2&message=blower&status=false",
+          "method": "GET",
+          "headers": {},
+          "body": ""
+        }
+      }
+    },
+    {
+      "id": 44,
+      "displayTime": 5000,
+      "parentId": 42,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderSize": 0,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 217,
+        "y": -22,
+        "width": 39,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "APIButton",
+        "url": "https://img.icons8.com/ios-filled/96/00c853/shutdown.png",
+        "request": {
+          "url": "http://192.168.0.171:3030/api/mqtt/publish?topic=2&message=blower&status=true",
+          "method": "GET",
+          "headers": {},
+          "body": ""
+        }
+      }
+    },
+    {
+      "id": 45,
+      "displayTime": 5000,
+      "parentId": 42,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 55,
+        "y": -22,
+        "width": 112.05078125,
+        "height": 31,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "Kiln Blower Buttons",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 46,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.3359890587774247, "y": 0.5631027540274556 },
+          { "x": 0.33941740050242175, "y": 0.5659885681433284 },
+          { "x": 0.33925819376122746, "y": 0.5817522634184616 },
+          { "x": 0.33614156710256116, "y": 0.580941748561138 }
+        ]
+      }
+    },
+    {
+      "id": 47,
+      "displayTime": 5000,
+      "parentId": 46,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderSize": 0,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 289,
+        "y": -21,
+        "width": 39,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "APIButton",
+        "url": "https://img.icons8.com/color/96/shutdown.png",
+        "request": {
+          "url": "http://192.168.0.171:3030/api/mqtt/publish?topic=2&message=heater&status=false",
+          "method": "GET",
+          "headers": {},
+          "body": ""
+        }
+      }
+    },
+    {
+      "id": 48,
+      "displayTime": 5000,
+      "parentId": 46,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderSize": 0,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 217,
+        "y": -22,
+        "width": 39,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "APIButton",
+        "url": "https://img.icons8.com/ios-filled/96/00c853/shutdown.png",
+        "request": {
+          "url": "http://192.168.0.171:3030/api/mqtt/publish?topic=2&message=heater&status=true",
+          "method": "GET",
+          "headers": {},
+          "body": ""
+        }
+      }
+    },
+    {
+      "id": 49,
+      "displayTime": 5000,
+      "parentId": 46,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 55,
+        "y": -22,
+        "width": 112.05078125,
+        "height": 31,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "Kiln Heater Buttons",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 50,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.33553464407372025, "y": 0.6305243290954441 },
+          { "x": 0.33857596318863403, "y": 0.6337547260816286 },
+          { "x": 0.33843467794810267, "y": 0.6484040451929025 },
+          { "x": 0.33566989059055496, "y": 0.6471560398732792 }
+        ]
+      }
+    },
+    {
+      "id": 51,
+      "displayTime": 5000,
+      "parentId": 50,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderSize": 0,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 289,
+        "y": -21,
+        "width": 39,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "APIButton",
+        "url": "https://img.icons8.com/color/96/shutdown.png",
+        "request": {
+          "url": "http://192.168.0.171:3030/api/mqtt/publish?topic=2&message=pulley1&status=false",
+          "method": "GET",
+          "headers": {},
+          "body": ""
+        }
+      }
+    },
+    {
+      "id": 52,
+      "displayTime": 5000,
+      "parentId": 50,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderSize": 0,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 217,
+        "y": -22,
+        "width": 39,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "APIButton",
+        "url": "https://img.icons8.com/ios-filled/96/00c853/shutdown.png",
+        "request": {
+          "url": "http://192.168.0.171:3030/api/mqtt/publish?topic=2&message=pulley1&status=true",
+          "method": "GET",
+          "headers": {},
+          "body": ""
+        }
+      }
+    },
+    {
+      "id": 53,
+      "displayTime": 5000,
+      "parentId": 50,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 55,
+        "y": -22,
+        "width": 112.05078125,
+        "height": 31,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "Pulley 1 Buttons",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 54,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.3356103562842952, "y": 0.7004150986893712 },
+          { "x": 0.3384432901884266, "y": 0.7039262290333115 },
+          { "x": 0.33831157698444847, "y": 0.717730774995396 },
+          { "x": 0.3357362336914723, "y": 0.7161289697472868 }
+        ]
+      }
+    },
+    {
+      "id": 55,
+      "displayTime": 5000,
+      "parentId": 54,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderSize": 0,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 289,
+        "y": -21,
+        "width": 39,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "APIButton",
+        "url": "https://img.icons8.com/color/96/shutdown.png",
+        "request": {
+          "url": "http://192.168.0.171:3030/api/mqtt/publish?topic=2&message=pulley2&status=false",
+          "method": "GET",
+          "headers": {},
+          "body": ""
+        }
+      }
+    },
+    {
+      "id": 56,
+      "displayTime": 5000,
+      "parentId": 54,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderSize": 0,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 217,
+        "y": -22,
+        "width": 39,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "APIButton",
+        "url": "https://img.icons8.com/ios-filled/96/00c853/shutdown.png",
+        "request": {
+          "url": "http://192.168.0.171:3030/api/mqtt/publish?topic=2&message=pulley2&status=true",
+          "method": "GET",
+          "headers": {},
+          "body": ""
+        }
+      }
+    },
+    {
+      "id": 57,
+      "displayTime": 5000,
+      "parentId": 54,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 55,
+        "y": -22,
+        "width": 112.05078125,
+        "height": 31,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "Pulley 2 Buttons",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 58,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.3344986642605291, "y": 0.7642092119154361 },
+          { "x": 0.33711423614111447, "y": 0.7679653051092767 },
+          { "x": 0.3382003097533516, "y": 0.7816518397062523 },
+          { "x": 0.33461478669660144, "y": 0.7789786638293323 }
+        ]
+      }
+    },
+    {
+      "id": 59,
+      "displayTime": 5000,
+      "parentId": 58,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderSize": 0,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 289,
+        "y": -21,
+        "width": 39,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "APIButton",
+        "url": "https://img.icons8.com/color/96/shutdown.png",
+        "request": {
+          "url": "http://192.168.0.171:3030/api/mqtt/publish?topic=2&message=pulley3&status=false",
+          "method": "GET",
+          "headers": {},
+          "body": ""
+        }
+      }
+    },
+    {
+      "id": 60,
+      "displayTime": 5000,
+      "parentId": 58,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderSize": 0,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 217,
+        "y": -22,
+        "width": 39,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "APIButton",
+        "url": "https://img.icons8.com/ios-filled/96/00c853/shutdown.png",
+        "request": {
+          "url": "http://192.168.0.171:3030/api/mqtt/publish?topic=2&message=pulley3&status=true",
+          "method": "GET",
+          "headers": {},
+          "body": ""
+        }
+      }
+    },
+    {
+      "id": 61,
+      "displayTime": 5000,
+      "parentId": 58,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 55,
+        "y": -22,
+        "width": 112.05078125,
+        "height": 31,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "Pulley 3 Buttons",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 62,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.3353552742711509, "y": 0.8249508519266251 },
+          { "x": 0.3378028919507546, "y": 0.8288908523877702 },
+          { "x": 0.3388202115809728, "y": 0.8419696146642471 },
+          { "x": 0.33546387056794225, "y": 0.8389025365315905 }
+        ]
+      }
+    },
+    {
+      "id": 63,
+      "displayTime": 5000,
+      "parentId": 62,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderSize": 0,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 289,
+        "y": -21,
+        "width": 39,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "APIButton",
+        "url": "https://img.icons8.com/color/96/shutdown.png",
+        "request": {
+          "url": "http://192.168.0.171:3030/api/mqtt/publish?topic=2&message=rotor&status=false",
+          "method": "GET",
+          "headers": {},
+          "body": ""
+        }
+      }
+    },
+    {
+      "id": 64,
+      "displayTime": 5000,
+      "parentId": 62,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderSize": 0,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 217,
+        "y": -22,
+        "width": 39,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "APIButton",
+        "url": "https://img.icons8.com/ios-filled/96/00c853/shutdown.png",
+        "request": {
+          "url": "http://192.168.0.171:3030/api/mqtt/publish?topic=2&message=rotor&status=true",
+          "method": "GET",
+          "headers": {},
+          "body": ""
+        }
+      }
+    },
+    {
+      "id": 65,
+      "displayTime": 5000,
+      "parentId": 62,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 55,
+        "y": -22,
+        "width": 112.05078125,
+        "height": 31,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "Rotor Buttons",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 66,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.3349701422985889, "y": 0.8827104126051044 },
+          { "x": 0.3386849956866009, "y": 0.8840013396464891 },
+          { "x": 0.33818637896125786, "y": 0.8992753416041549 },
+          { "x": 0.33507084565190215, "y": 0.895836635269287 }
+        ]
+      }
+    },
+    {
+      "id": 67,
+      "displayTime": 5000,
+      "parentId": 66,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderSize": 0,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 289,
+        "y": -21,
+        "width": 39,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "APIButton",
+        "url": "https://img.icons8.com/color/96/shutdown.png",
+        "request": {
+          "url": "http://192.168.0.171:3030/api/mqtt/publish?topic=2&message=pulley_heater&status=false",
+          "method": "GET",
+          "headers": {},
+          "body": ""
+        }
+      }
+    },
+    {
+      "id": 68,
+      "displayTime": 5000,
+      "parentId": 66,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderSize": 0,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 217,
+        "y": -22,
+        "width": 39,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "APIButton",
+        "url": "https://img.icons8.com/ios-filled/96/00c853/shutdown.png",
+        "request": {
+          "url": "http://192.168.0.171:3030/api/mqtt/publish?topic=2&message=pulley_heater&status=true",
+          "method": "GET",
+          "headers": {},
+          "body": ""
+        }
+      }
+    },
+    {
+      "id": 69,
+      "displayTime": 5000,
+      "parentId": 66,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 55,
+        "y": -22,
+        "width": 112.05078125,
+        "height": 31,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "Pulley Heater Buttons",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 70,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.25954280600497825, "y": 0.39109885258134147 },
+          { "x": 0.26127234127146026, "y": 0.38847836956924653 },
+          { "x": 0.2610391751587473, "y": 0.4049668557617769 },
+          { "x": 0.25958946484699663, "y": 0.40458951468756266 }
+        ]
+      }
+    },
+    {
+      "id": 71,
+      "displayTime": 5000,
+      "parentId": 70,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderSize": 0,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 289,
+        "y": -21,
+        "width": 39,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "APIButton",
+        "url": "https://img.icons8.com/color/96/shutdown.png",
+        "request": {
+          "url": "http://192.168.0.171:3030/api/mqtt/publish?topic=2&message=pulley_blower&status=false",
+          "method": "GET",
+          "headers": {},
+          "body": ""
+        }
+      }
+    },
+    {
+      "id": 72,
+      "displayTime": 5000,
+      "parentId": 70,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderSize": 0,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 217,
+        "y": -22,
+        "width": 39,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "APIButton",
+        "url": "https://img.icons8.com/ios-filled/96/00c853/shutdown.png",
+        "request": {
+          "url": "http://192.168.0.171:3030/api/mqtt/publish?topic=2&message=pulley_blower&status=true",
+          "method": "GET",
+          "headers": {},
+          "body": ""
+        }
+      }
+    },
+    {
+      "id": 73,
+      "displayTime": 5000,
+      "parentId": 70,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 55,
+        "y": -22,
+        "width": 112.05078125,
+        "height": 31,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "Pulley Blower  Buttons",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 74,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.2597697620840915, "y": 0.44413871705750885 },
+          { "x": 0.2612693294641081, "y": 0.4417499633675461 },
+          { "x": 0.26106719004007783, "y": 0.45712616440474674 },
+          { "x": 0.2598102225895156, "y": 0.45672770443359306 }
+        ]
+      }
+    },
+    {
+      "id": 75,
+      "displayTime": 5000,
+      "parentId": 74,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderSize": 0,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 289,
+        "y": -21,
+        "width": 39,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "APIButton",
+        "url": "https://img.icons8.com/color/96/shutdown.png",
+        "request": {
+          "url": "http://192.168.0.171:3030/api/mqtt/publish?topic=2&message=pulley_vibration_motor&status=false",
+          "method": "GET",
+          "headers": {},
+          "body": ""
+        }
+      }
+    },
+    {
+      "id": 76,
+      "displayTime": 5000,
+      "parentId": 74,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderSize": 0,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 217,
+        "y": -22,
+        "width": 39,
+        "height": 39,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "APIButton",
+        "url": "https://img.icons8.com/ios-filled/96/00c853/shutdown.png",
+        "request": {
+          "url": "http://192.168.0.171:3030/api/mqtt/publish?topic=2&message=pulley_vibration_motor&status=true",
+          "method": "GET",
+          "headers": {},
+          "body": ""
+        }
+      }
+    },
+    {
+      "id": 77,
+      "displayTime": 5000,
+      "parentId": 74,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 55,
+        "y": -22,
+        "width": 112.05078125,
+        "height": 31,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "Vibration Motor Buttons",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 78,
+      "displayTime": 5000,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(246, 211, 39, 0)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": true,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "Sphere",
+        "points": [
+          { "x": 0.25869408666333865, "y": 0.5012922555552962 },
+          { "x": 0.2609055452148869, "y": 0.5035045738876874 },
+          { "x": 0.2601165000819974, "y": 0.5152389509703044 },
+          { "x": 0.2585663060123039, "y": 0.5176393897208318 }
+        ]
+      }
+    },
+    {
+      "id": 79,
+      "displayTime": 5000,
+      "parentId": 78,
+      "appearance": {
+        "backgroundColor": "rgba(0, 113, 159, 147)",
+        "borderColor": "rgba(0, 196, 255, 147)",
+        "borderSize": 4,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 38,
+        "y": -23,
+        "width": 179,
+        "height": 37,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "RichInfo",
+        "sections": [
+          {
+            "text": "Emergency – ALL OFF Button",
+            "fontSize": 12,
+            "fontColor": "rgba(255, 255, 255, 255)",
+            "isBold": false,
+            "isItalic": false,
+            "href": "",
+            "targetOption": ""
+          }
+        ],
+        "autoSizeMode": "AdjustBounds"
+      }
+    },
+    {
+      "id": 80,
+      "displayTime": 5000,
+      "parentId": 78,
+      "appearance": {
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "borderColor": "rgba(255, 255, 255, 0)",
+        "borderSize": 0,
+        "visibilityThreshold": 0,
+        "isChildCollapsible": false,
+        "defaultCollapseState": false,
+        "collapseButtonType": "Default",
+        "collapseButtonPos": "RightTop",
+        "collapseButtonScale": 1,
+        "collapseButtonOpacity": 1
+      },
+      "bounds": {
+        "type": "ViewportOffset",
+        "x": 244,
+        "y": -25,
+        "width": 37,
+        "height": 37,
+        "anchor": { "parent": "RightTop", "self": "LeftTop" }
+      },
+      "content": {
+        "type": "APIButton",
+        "url": "https://img.icons8.com/color/96/shutdown.png",
+        "request": {
+          "url": "http://192.168.0.171:3030/api/mqtt/publish?topic=2&message=all_off&status=false",
+          "method": "GET",
+          "headers": {},
+          "body": ""
+        }
+      }
+    }
+  ],
+  "timestamp": "2026-01-13T06:27:12.100Z"
+}
